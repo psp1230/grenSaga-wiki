@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+button,
+textarea,
+th,
+td,
+figure {
+  margin: 0;
+  padding: 0;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.darkmode {
+  --maincolor:#e8ecf0;
+  --fontcolor:#88929B;
+  --bgcolor:#394149;
+  --hovercolor:black;
+}
+
+.color-example {
+  background-color: var(--maincolor, #758391);
+}
+
+:root {
+  --p1920:calc(100vw / 1920);
+  --p1440: calc(100vw / 1440);
+  --p1100: calc(100vw / 1074);
+  --p768: calc(100vw / 768);
+  --p468: calc(100vw / 468);
+}
+
+html {
+  font-size: 15px;
+}
+@media (max-width: 1074px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 590px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+body {
+  font-family: "Inter", "Noto Sans TC", "Noto Sans JP", sans-serif;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}/*# sourceMappingURL=basic.css.map */

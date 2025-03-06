@@ -1,0 +1,35 @@
+[
+    {
+        "kyaraCode": "las",
+        "fullname": "火主 - ラス",
+        "jpname": "ラス",
+        "nickname": "火主",
+        "path": "/character/las",
+        "smallImg": "./img/char/las.webp",
+        "controlWeapon":[
+            {
+                "weaponId": 3,
+                "jpname": "メルテス",
+                "weaponSmallImg": "./img/weapon/las/4.webp",
+                "controlType":"擊倒 / ダウン",
+                "controlSkill":"<普通/爆發> 100%賦予擊倒",
+                "counterKyara":[
+                    {
+                    "kyaraCode":"quyi",
+                    "kyaraImg":"./img/char/quyi.webp",
+                    "path": "/character/quyi",
+                    "weaponId":3,
+                    "weaponImg":"./img/weapon/quyi/44.webp"
+                    },
+                    {
+                    "kyaraCode":"jun",
+                    "kyaraImg":"./img/char/jun.webp",
+                    "path": "/character/jun",
+                    "weaponId":10,
+                    "weaponImg":"./img/weapon/jun/98.webp"
+                    }
+                ]
+            }
+        ]
+    }
+]

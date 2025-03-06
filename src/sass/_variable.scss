@@ -1,0 +1,49 @@
+//網頁字體
+$chFont:'Noto Sans TC';
+$engFont:'Inter';
+$jpFont:'Noto Sans JP';
+
+
+//文字字級
+$h1: 3.75rem;
+$h2: 3.4375rem;
+$h3: 1.6875rem;
+$h4: 1.375rem;
+$h5: 1.1875rem;
+$h6: 1rem;
+
+
+//顏色設置
+$maincolor:#758391;
+$lightfontcolor:#a3aeb8;
+$darkfontcolor:#596066;
+$blackfontcolor:#3a3e42;
+$whitefont:#ffffff;
+$bgcolor:#eff1f3 ;
+$hovercolor:#ffffff;
+
+$btnhovercolor:#cdcfd1;
+
+
+$white:#ffffff;
+$warningcolor:#cc390c;
+$linkcolor:#277fc7;
+$rankTablebg:#e9eaeb;
+$lightboxbg:#f0f0f0;
+
+
+
+//深色模式，之後需要會正式啟用
+.darkmode {
+--maincolor:#e8ecf0;
+--fontcolor:#88929B;
+--bgcolor:#394149;
+--hovercolor:black;
+}
+
+//如需使用顏色，請幫我使用上面那段var開始的顏色代碼，下面為範例
+.color-example {
+    background-color: var(--maincolor, $maincolor);
+}
+
+$marginSpace : 25px;
